@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title>Elementos de Formularios:Textarea</title>
+    <meta charset="UTF-8">
+
+    <style>
+textarea{
+resize:none;
+}
+textarea {
+    border: 2px solid red;
+
+    
+
+ 
+}
+</style>
+    
+</head>
+<body>
+    <p><strong>Controles de Caixa de Comentários</strong></p>
+<form name="Cadastro" method="GET" action="script.php">
+<label for="coment"> Entre com seus comentários na caixa a seguir (máx. 300 caracteres): </label><br>
+<textarea rows="g" cols="50" name="comentarios"
+id="coment" maxlength="300" minlength="20"></textarea>
+<br>
+<br>
+<input type="submit" value="Enviar" />
+</form>
+</body>
+</html>
